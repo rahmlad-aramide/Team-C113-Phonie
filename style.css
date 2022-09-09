@@ -1,9 +1,18 @@
+body {
+  background: url("background.jpg");
+  background-size: cover;
+  font-family: helvetica;
+  font-size: 101%;
+}
 h2, p {
   text-align: center;
+  color: white;
+  font-weight: 600;
+  background: #00000050;
 }
 .phonie {
   display: flex;
-  border: 1px solid black;
+  border: 1px solid white;
   justify-content: center;
   margin: 0 auto;
   border-radius: 2rem;
@@ -14,6 +23,9 @@ h2, p {
 }
 marquee {
   margin-top: 2rem;
+  color: white;
+  font-weight: 600;
+  background: #00000050;
 }
 .number {
   width: 100%;
